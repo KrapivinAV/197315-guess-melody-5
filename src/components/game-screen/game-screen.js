@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from 'prop-types';
 import {Redirect} from 'react-router-dom';
 import {connect} from "react-redux";
-import {ActionCreator} from "../../store/action";
+import * as ActionCreator from "../../store/action";
 import {GameType} from '../../const';
 import ArtistQuestionScreen from '../artist-question-screen/artist-question-screen';
 import GenreQuestionScreen from '../genre-question-screen/genre-question-screen';
